@@ -1,7 +1,7 @@
 # Metronic Resume Template
 
 A Typst template for a slick and professional looking resume.
-Check out the [full example](./preview/main.type) to create your first resume.
+Check out the [full example](./preview/main.typ) to create your first resume.
 
 ![](thumbnail.png)
 

@@ -1,5 +1,4 @@
 #import "@preview/metronic:1.0.0": *
-#import "template.typ": theme, resume-page, tags, medium, small, contact, section
 
 #theme(
   accent-color: rgb("61B7AE"),

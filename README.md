@@ -2,6 +2,8 @@
 
 A Typst template for a slick and professional looking resume.
 
+![](thumbnail.png)
+
 ## Getting started
 
 Start by importing the template into your Typst project:

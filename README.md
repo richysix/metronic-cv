@@ -1,7 +1,7 @@
 # Metronic Resume Template
 
 A Typst template for a slick and professional looking resume.
-Check out the [full example](./preview/main.typ) to create your first resume.
+Check out the [full example](./template/main.typ) to create your first resume.
 
 ![](thumbnail.png)
 
@@ -57,6 +57,12 @@ For the body, a `#section` component is available to add sections with icons. eg
   Focus on developing new market opportunities and enhancing existing partnerships.
 ]
 ```
+
+## Fonts
+
+This template uses FontAwesome icons. For icons to work properly, please include the ttf files into your project directory.
+
+You can download them here: [FontAwesome](https://fontawesome.com/v6/download)
 
 ## Multi-page resume
 

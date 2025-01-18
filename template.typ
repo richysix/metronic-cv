@@ -159,7 +159,15 @@
   }
 }
 
-#let contact = (phone: "", github: "", location: "", email: "", linkedin: "") => {
+#let contact = (
+  phone: "",
+  github: "",
+  location: "",
+  email: "",
+  linkedin: "",
+  website: "",
+  x: "",
+)  => {
   if email != "" [
     #fa-envelope(solid: true) #h(5pt) #email \
   ]
@@ -174,6 +182,12 @@
   ]
   if location != "" [
     #fa-location-dot(solid: true) #h(5pt) #location \
+  ]
+  if website != "" [
+    #fa-globe(solid: false) #h(5pt) #website \
+  ]
+  if x != "" [
+    #fa-x-twitter(solid: true) #h(5pt) #x \
   ]
 }
 

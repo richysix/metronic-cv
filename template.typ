@@ -45,13 +45,9 @@
 // Config
 // --------------------------------------
 
-#show heading.where(level: 1): set text(size: 22pt, weight: "bold")
-#show heading.where(level: 2): set text(size: 14pt, weight: "bold")
-
 #let empty = ""
-#let name = "Patrick Rabier"
-#let role = "Lead Software Engineer"
-#let font = "Inter"
+#let name = "Richard White"
+#let font = "Ubuntu"
 
 // --------------------------------------
 // Helpers
@@ -208,6 +204,10 @@
 ) => {
   context {
     set page("a4", margin: 0pt, fill: get-background-color())
+    show heading.where(level: 1): set text(size: 24pt, weight: "bold")
+    show heading.where(level: 2): set text(size: 16pt, weight: "bold")
+    show heading.where(level: 3): set text(size: 14pt, weight: "bold")
+    show heading.where(level: 4): set text(size: 11pt, weight: "bold")
     resume-layout(
       base-color: get-background-color(),
       color: get-accent-color(),

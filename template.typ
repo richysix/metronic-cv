@@ -171,7 +171,7 @@
     #fa-phone(solid: true) #h(5pt) #phone \
   ]
   if github != "" [
-    #fa-github(solid: true) #h(5pt) #github \
+    #fa-github(solid: true) #h(5pt) #link("https://" + github)[#github] \
   ]
   if linkedin != "" [
     #fa-linkedin(solid: true) #h(5pt) #linkedin \
@@ -180,7 +180,7 @@
     #fa-location-dot(solid: true) #h(5pt) #location \
   ]
   if website != "" [
-    #fa-globe(solid: false) #h(5pt) #website \
+    #fa-globe(solid: false) #h(5pt) #link("https://" + website)[#website] \
   ]
   if x != "" [
     #fa-x-twitter(solid: true) #h(5pt) #x \

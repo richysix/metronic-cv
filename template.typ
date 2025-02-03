@@ -140,7 +140,7 @@
     pad(20pt, content)
   } else {
     grid(
-      columns: (1.9fr, 3fr),
+      columns: (1.3fr, 3.2fr),
       rows: (100%),
       fill: (x, _) => if x == 0 { color } else { base-color },
       context {

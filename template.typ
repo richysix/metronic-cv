@@ -99,15 +99,15 @@
 }
 
 #let small(content) = {
-  text(size: 10pt)[#content]
+  text(size: 9pt)[#content]
 }
 
 #let medium(content) = {
-  text(size: 14pt, weight: "bold")[#content]
+  text(size: 12pt, weight: "bold")[#content]
 }
 
 #let large(content) = {
-  text(size: 18pt, weight: "bold")[#content]
+  text(size: 15pt, weight: "bold")[#content]
 }
 
 #let section(
@@ -192,7 +192,7 @@
       #set text(
         font: font,
         fill: text-fill,
-        size: 12pt
+        size: 11pt
       )
       #content
     ])
